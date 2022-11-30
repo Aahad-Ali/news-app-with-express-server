@@ -1,0 +1,72 @@
+.navbar-brand {
+  font-size: 35px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+.nav-item a {
+  color: #fff;
+}
+.form {
+  width: 50%;
+  margin-left: 24%;
+  font-size: 20px;
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+}
+.navbar-toggler-icon {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.news {
+  border: 1px solid black;
+  box-shadow: 8px 0px 16px rgb(120, 120, 120), -8px 0px 15px rgb(120, 120, 120);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgb(238, 238, 238);
+}
+.image {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+  /* border-radius: 10px; */
+}
+.image img {
+  /* width: 40%; */
+  /* height: 20%;  */
+  border-radius: 10px;
+}
+.loader {
+  font-size: 50px;
+  text-align: center;
+}
+@media only screen and (max-width: 390px) {
+  .news h3 {
+    font-size: 20px;
+  }
+  .news p {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .news h3 {
+    font-size: 16px;
+  }
+  .news p {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 8px;
+  }
+}
